@@ -9,7 +9,7 @@ async function run() {
     const data = await fetchEnv();
     const config = {
       name: "My Workspace",
-      image: "mcr.microsoft.com/devcontainers/base:arch",
+      image: "mcr.microsoft.com/devcontainers/base:ubuntu",
       customizations: {
         vscode: {
           extensions: data.extensions,
